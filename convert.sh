@@ -4,5 +4,4 @@ for f in *.png
 do
     base="${f%%.*}"
     convert $f -resize 60% $base"_conv.png"
-    
 done 
